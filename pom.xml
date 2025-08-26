@@ -53,6 +53,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.25.1</version>
+        </dependency>
+
+        <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.5.6</version>
@@ -114,12 +120,5 @@
             </plugin>
         </plugins>
     </build>
-
-
-
-
-
-
-
 
 </project>
